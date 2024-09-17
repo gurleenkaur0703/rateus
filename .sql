@@ -1,7 +1,6 @@
-
 CREATE DATABASE RateUs;
 
-USE rateus;
+USE RateUs;
 
 CREATE TABLE Organisation(
     ID varchar(10) PRIMARY KEY,
