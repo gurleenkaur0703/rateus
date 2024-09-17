@@ -7,6 +7,7 @@ CREATE TABLE Organisation(
     Name varchar(200),
     Owner_id varchar(10),
     Logo varchar(100),
+    Address varchar(200),
     Listed_On DATE DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -15,7 +16,7 @@ CREATE TABLE User_(
     Name varchar(100),
     Email varchar(200),
     Contact varchar(12),
-    Password varchar(50),
+    Password varchar(300),
     Created_ON DATE DEFAULT CURRENT_TIMESTAMP
 );
 
