@@ -1,0 +1,9 @@
+INSERT INTO User_ (ID, Name, Email, Contact, Password) 
+VALUES ('enter_id', 'enter_name', 'enter_email', 'enter_contact', 'enter_password');
+
+INSERT INTO Organisation (ID, Name, Owner_id, address) 
+VALUES ('enterOrg_id', 'enterOrg_name', 'enterOrg_owner_id', 'enterOrg_address');
+
+SELECT ID, Contact, Password 
+FROM User_ 
+WHERE Email = 'backend_provided';
