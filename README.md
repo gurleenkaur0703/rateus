@@ -28,3 +28,5 @@ CREATE TABLE User_(
     Created_ON DATE DEFAULT CURRENT_TIMESTAMP
 );
 ```
+## Database Queries
+### Fetching User Details by Email
