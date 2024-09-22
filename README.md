@@ -40,13 +40,13 @@ Added_On DATE DEFAULT CURRENT_TIMESTAMP
 ## Database Queries
 ### Inserting User Details
 ```
-INSERT INTO User_ (ID, Name, Email, Contact, Password) 
-VALUES ('enter_id', 'enter_name', 'enter_email', 'enter_contact', 'enter_password');
+INSERT INTO User_ (ID, User_Name, Email, Contact, Password) 
+VALUES ('enter_ID', 'enter_name', 'enter_email', 'enter_contact', 'enter_password');
 ```
 ### Inserting Organisation Details
 ```
-INSERT INTO Organisation (ID, Name, Owner_id, address) 
-VALUES ('enterOrg_id', 'enterOrg_name', 'enterOrg_owner_id', 'enterOrg_address');
+INSERT INTO Organisation (ID, Org_Name, Owner_ID, address) 
+VALUES ('enter_org_ID', 'enter_orgName', 'enterOrg_ownerID', 'enter_orgAddress');
 ```
 ### Fetching User Details by Email
 ```
