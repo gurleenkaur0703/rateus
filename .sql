@@ -4,7 +4,7 @@ USE RateUs;
 
 CREATE TABLE Organisation(
     ID varchar(10) PRIMARY KEY,
-    Name varchar(200),
+    Org_Name varchar(200),
     Owner_id varchar(10),
     Logo varchar(100),
     Address varchar(200),
@@ -13,14 +13,14 @@ CREATE TABLE Organisation(
 
 CREATE TABLE User_(
     ID varchar(10) PRIMARY KEY,
-    Name varchar(100),
+    User_Name varchar(100),
     Email varchar(200),
     Contact varchar(12),
     Password varchar(300),
     Created_ON DATE DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE Item(
+CREATE TABLE Items(
 ID varchar(10) PRIMARY KEY,
 Item_Name varchar(100),
 Org_ID varchar(10),
