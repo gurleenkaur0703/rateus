@@ -20,3 +20,9 @@ CREATE TABLE User_(
     Created_ON DATE DEFAULT CURRENT_TIMESTAMP
 );
 
+CREATE TABLE Item(
+ID varchar(10) PRIMARY KEY,
+Item_Name varchar(100),
+Org_ID varchar(10),
+Added_On DATE DEFAULT CURRENT_TIMESTAMP
+);
